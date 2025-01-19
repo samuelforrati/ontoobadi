@@ -1,0 +1,1542 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.unipampa.edu.br/labise/ontobadi"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.unipampa.edu.br/labise/ontobadi"
+     versionIRI="http://www.unipampa.edu.br/labise/ontobadi/1.0.0">
+    <Prefix name="" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="ontobadi" IRI="http://www.unipampa.edu.br/labise/ontobadi#"/>
+    <Declaration>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#Accessibility"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#Analyzing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#Applying"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#Article"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#AudiovisualLearningObject"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#Author"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#Book"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#CompositeLearningObject"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#Comprehension"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#Creating"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#DigitalLearningObject"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#Evaluating"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#GraphicLearningObject"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#Interactivity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#KnowledgeArea"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#Language"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#LearningPlatform"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#License"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#Operation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#Perception"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#Reference"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#Remembering"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#Robustness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#SimpleLearningObject"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#SoftwareLearningObject"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#TargetAudience"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#TextualLearningObject"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#Understanding"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasAccessibility"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasArea"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasAuthor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasComposition"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasInteractivity"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasLanguage"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasLicense"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasPlatform"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasReference"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasTarget"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isAccessibilityOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isAreaOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isAuthorOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isComposedOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isInteractivityOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isLanguageOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isLicenseOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isPlatformOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isReferenceOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isTargetOf"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.unipampa.edu.br/labise/ontolibras#hasAuthor"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.unipampa.edu.br/labise/ontolibras#hasCity"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.unipampa.edu.br/labise/ontolibras#hasDate"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.unipampa.edu.br/labise/ontolibras#hasDescription"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.unipampa.edu.br/labise/ontolibras#hasEvaluation"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.unipampa.edu.br/labise/ontolibras#hasKeyword"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.unipampa.edu.br/labise/ontolibras#hasLink"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.unipampa.edu.br/labise/ontolibras#hasName"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.unipampa.edu.br/labise/ontolibras#hasObjective"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.unipampa.edu.br/labise/ontolibras#hasPostLink"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.unipampa.edu.br/labise/ontolibras#hasPublisher"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.unipampa.edu.br/labise/ontolibras#hasResumeLink"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.unipampa.edu.br/labise/ontolibras#hasVehicle"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.unipampa.edu.br/labise/ontolibras#hasYear"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.unipampa.edu.br/labise/ontolibras#teste"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#Accessibility"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#Accessibility"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="http://www.unipampa.edu.br/labise/ontolibras#hasDescription"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#Analyzing"/>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#Interactivity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#Applying"/>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#Interactivity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#Article"/>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#Reference"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#Article"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="http://www.unipampa.edu.br/labise/ontolibras#hasVehicle"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#AudiovisualLearningObject"/>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#SimpleLearningObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#Author"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#Author"/>
+        <DataMinCardinality cardinality="1">
+            <DataProperty IRI="http://www.unipampa.edu.br/labise/ontolibras#hasResumeLink"/>
+            <Datatype abbreviatedIRI="xsd:anyURI"/>
+        </DataMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#Book"/>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#Reference"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#Book"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="http://www.unipampa.edu.br/labise/ontolibras#hasCity"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#Book"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="http://www.unipampa.edu.br/labise/ontolibras#hasPublisher"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#CompositeLearningObject"/>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#DigitalLearningObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#CompositeLearningObject"/>
+        <ObjectMinCardinality cardinality="2">
+            <ObjectProperty IRI="#isComposedOf"/>
+            <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#DigitalLearningObject"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#Comprehension"/>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#Accessibility"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#Creating"/>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#Interactivity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#DigitalLearningObject"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#DigitalLearningObject"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#hasAccessibility"/>
+            <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#Accessibility"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#DigitalLearningObject"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#hasArea"/>
+            <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#KnowledgeArea"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#DigitalLearningObject"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#hasAuthor"/>
+            <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#Author"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#DigitalLearningObject"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#hasInteractivity"/>
+            <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#Interactivity"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#DigitalLearningObject"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#hasLanguage"/>
+            <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#Language"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#DigitalLearningObject"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#hasLicense"/>
+            <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#License"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#DigitalLearningObject"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#hasPlatform"/>
+            <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#LearningPlatform"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#DigitalLearningObject"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#hasReference"/>
+            <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#Reference"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#DigitalLearningObject"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#hasTarget"/>
+            <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#TargetAudience"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#DigitalLearningObject"/>
+        <DataMinCardinality cardinality="1">
+            <DataProperty IRI="http://www.unipampa.edu.br/labise/ontolibras#hasKeyword"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#DigitalLearningObject"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="http://www.unipampa.edu.br/labise/ontolibras#hasDate"/>
+            <Datatype abbreviatedIRI="xsd:dateTime"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#DigitalLearningObject"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="http://www.unipampa.edu.br/labise/ontolibras#hasDescription"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#DigitalLearningObject"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="http://www.unipampa.edu.br/labise/ontolibras#hasEvaluation"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#DigitalLearningObject"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="http://www.unipampa.edu.br/labise/ontolibras#hasObjective"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#DigitalLearningObject"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="http://www.unipampa.edu.br/labise/ontolibras#hasPostLink"/>
+            <Datatype abbreviatedIRI="xsd:anyURI"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#Evaluating"/>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#Interactivity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#GraphicLearningObject"/>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#SimpleLearningObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#Interactivity"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#Interactivity"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="http://www.unipampa.edu.br/labise/ontolibras#hasDescription"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#KnowledgeArea"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#Language"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#LearningPlatform"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#License"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#Operation"/>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#Accessibility"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#Perception"/>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#Accessibility"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#Reference"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#Reference"/>
+        <DataMinCardinality cardinality="1">
+            <DataProperty IRI="http://www.unipampa.edu.br/labise/ontolibras#hasAuthor"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#Reference"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="http://www.unipampa.edu.br/labise/ontolibras#hasYear"/>
+            <Datatype abbreviatedIRI="xsd:dateTime"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#Remembering"/>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#Interactivity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#Robustness"/>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#Accessibility"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#SimpleLearningObject"/>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#DigitalLearningObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#SoftwareLearningObject"/>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#SimpleLearningObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#TargetAudience"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#TextualLearningObject"/>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#SimpleLearningObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#Understanding"/>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#Interactivity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="http://www.unipampa.edu.br/labise/ontolibras#hasName"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#Analyzing"/>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#Applying"/>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#Creating"/>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#Evaluating"/>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#Remembering"/>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#Understanding"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#AudiovisualLearningObject"/>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#GraphicLearningObject"/>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#SoftwareLearningObject"/>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#TextualLearningObject"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#CompositeLearningObject"/>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#SimpleLearningObject"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#Comprehension"/>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#Operation"/>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#Perception"/>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#Robustness"/>
+    </DisjointClasses>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasAccessibility"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasArea"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasAuthor"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasComposition"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasInteractivity"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasLanguage"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasLicense"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasPlatform"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasReference"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasTarget"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isAccessibilityOf"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isAreaOf"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isAuthorOf"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isComposedOf"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isInteractivityOf"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isLanguageOf"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isLicenseOf"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isPlatformOf"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isReferenceOf"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isTargetOf"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasAccessibility"/>
+        <ObjectProperty IRI="#isAccessibilityOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasArea"/>
+        <ObjectProperty IRI="#isAreaOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasAuthor"/>
+        <ObjectProperty IRI="#isAuthorOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasComposition"/>
+        <ObjectProperty IRI="#isComposedOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasInteractivity"/>
+        <ObjectProperty IRI="#isInteractivityOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasLanguage"/>
+        <ObjectProperty IRI="#isLanguageOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasLicense"/>
+        <ObjectProperty IRI="#isLicenseOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasPlatform"/>
+        <ObjectProperty IRI="#isPlatformOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasReference"/>
+        <ObjectProperty IRI="#isReferenceOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasTarget"/>
+        <ObjectProperty IRI="#isTargetOf"/>
+    </InverseObjectProperties>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasAccessibility"/>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#DigitalLearningObject"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasArea"/>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#DigitalLearningObject"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasAuthor"/>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#DigitalLearningObject"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasComposition"/>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#DigitalLearningObject"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasInteractivity"/>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#DigitalLearningObject"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasLanguage"/>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#DigitalLearningObject"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasLicense"/>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#DigitalLearningObject"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasPlatform"/>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#DigitalLearningObject"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasReference"/>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#DigitalLearningObject"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTarget"/>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#DigitalLearningObject"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isAccessibilityOf"/>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#Accessibility"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isAreaOf"/>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#KnowledgeArea"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isAuthorOf"/>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#Author"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isComposedOf"/>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#CompositeLearningObject"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isInteractivityOf"/>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#Interactivity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isLanguageOf"/>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#Language"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isLicenseOf"/>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#License"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isPlatformOf"/>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#LearningPlatform"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isReferenceOf"/>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#Reference"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isTargetOf"/>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#TargetAudience"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasAccessibility"/>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#Accessibility"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasArea"/>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#KnowledgeArea"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasAuthor"/>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#Author"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasComposition"/>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#CompositeLearningObject"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasInteractivity"/>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#Interactivity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasLanguage"/>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#Language"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasLicense"/>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#License"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasPlatform"/>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#LearningPlatform"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasReference"/>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#Reference"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTarget"/>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#TargetAudience"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isAccessibilityOf"/>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#DigitalLearningObject"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isAreaOf"/>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#DigitalLearningObject"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isAuthorOf"/>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#DigitalLearningObject"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isComposedOf"/>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#DigitalLearningObject"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isInteractivityOf"/>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#DigitalLearningObject"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isLanguageOf"/>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#DigitalLearningObject"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isLicenseOf"/>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#DigitalLearningObject"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isPlatformOf"/>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#DigitalLearningObject"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isReferenceOf"/>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#DigitalLearningObject"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isTargetOf"/>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#DigitalLearningObject"/>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://www.unipampa.edu.br/labise/ontolibras#hasAuthor"/>
+        <DataProperty IRI="http://www.unipampa.edu.br/labise/ontolibras#hasName"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://www.unipampa.edu.br/labise/ontolibras#hasCity"/>
+        <DataProperty IRI="http://www.unipampa.edu.br/labise/ontolibras#hasName"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://www.unipampa.edu.br/labise/ontolibras#hasDate"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://www.unipampa.edu.br/labise/ontolibras#hasDescription"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://www.unipampa.edu.br/labise/ontolibras#hasKeyword"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://www.unipampa.edu.br/labise/ontolibras#hasLink"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://www.unipampa.edu.br/labise/ontolibras#hasName"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://www.unipampa.edu.br/labise/ontolibras#hasPostLink"/>
+        <DataProperty IRI="http://www.unipampa.edu.br/labise/ontolibras#hasLink"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://www.unipampa.edu.br/labise/ontolibras#hasPublisher"/>
+        <DataProperty IRI="http://www.unipampa.edu.br/labise/ontolibras#hasName"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://www.unipampa.edu.br/labise/ontolibras#hasResumeLink"/>
+        <DataProperty IRI="http://www.unipampa.edu.br/labise/ontolibras#hasLink"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://www.unipampa.edu.br/labise/ontolibras#hasVehicle"/>
+        <DataProperty IRI="http://www.unipampa.edu.br/labise/ontolibras#hasName"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://www.unipampa.edu.br/labise/ontolibras#hasYear"/>
+        <DataProperty IRI="http://www.unipampa.edu.br/labise/ontolibras#hasDate"/>
+    </SubDataPropertyOf>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.unipampa.edu.br/labise/ontolibras#hasAuthor"/>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#Reference"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.unipampa.edu.br/labise/ontolibras#hasCity"/>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#Book"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.unipampa.edu.br/labise/ontolibras#hasDate"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.unipampa.edu.br/labise/ontolibras#hasDescription"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.unipampa.edu.br/labise/ontolibras#hasEvaluation"/>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#DigitalLearningObject"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.unipampa.edu.br/labise/ontolibras#hasKeyword"/>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#DigitalLearningObject"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.unipampa.edu.br/labise/ontolibras#hasLink"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.unipampa.edu.br/labise/ontolibras#hasName"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.unipampa.edu.br/labise/ontolibras#hasObjective"/>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#DigitalLearningObject"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.unipampa.edu.br/labise/ontolibras#hasPostLink"/>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#DigitalLearningObject"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.unipampa.edu.br/labise/ontolibras#hasPublisher"/>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#Book"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.unipampa.edu.br/labise/ontolibras#hasResumeLink"/>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#Author"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.unipampa.edu.br/labise/ontolibras#hasVehicle"/>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#Article"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.unipampa.edu.br/labise/ontolibras#hasYear"/>
+        <Class IRI="http://www.unipampa.edu.br/labise/ontolibras#Reference"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.unipampa.edu.br/labise/ontolibras#hasAuthor"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.unipampa.edu.br/labise/ontolibras#hasCity"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.unipampa.edu.br/labise/ontolibras#hasDate"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.unipampa.edu.br/labise/ontolibras#hasDescription"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.unipampa.edu.br/labise/ontolibras#hasEvaluation"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.unipampa.edu.br/labise/ontolibras#hasKeyword"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.unipampa.edu.br/labise/ontolibras#hasLink"/>
+        <Datatype abbreviatedIRI="xsd:anyURI"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.unipampa.edu.br/labise/ontolibras#hasName"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.unipampa.edu.br/labise/ontolibras#hasObjective"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.unipampa.edu.br/labise/ontolibras#hasPostLink"/>
+        <Datatype abbreviatedIRI="xsd:anyURI"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.unipampa.edu.br/labise/ontolibras#hasPublisher"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.unipampa.edu.br/labise/ontolibras#hasResumeLink"/>
+        <Datatype abbreviatedIRI="xsd:anyURI"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.unipampa.edu.br/labise/ontolibras#hasVehicle"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.unipampa.edu.br/labise/ontolibras#hasYear"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasAccessibility</IRI>
+        <Literal xml:lang="en-us">has accessibility</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasAccessibility</IRI>
+        <Literal xml:lang="pt-br">tem acessibilidade</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasArea</IRI>
+        <Literal xml:lang="en-us">has area</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasArea</IRI>
+        <Literal xml:lang="pt-br">tem área</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasAuthor</IRI>
+        <Literal xml:lang="en-us">has author</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasAuthor</IRI>
+        <Literal xml:lang="pt-br">tem autor</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasComposition</IRI>
+        <Literal xml:lang="en-us">has composition</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasComposition</IRI>
+        <Literal xml:lang="pt-br">tem composição</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasInteractivity</IRI>
+        <Literal xml:lang="en-us">has interactivity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasInteractivity</IRI>
+        <Literal xml:lang="pt-br">tem interatividade</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasLanguage</IRI>
+        <Literal xml:lang="en-us">has language</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasLanguage</IRI>
+        <Literal xml:lang="pt-br">tem idioma</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasLicense</IRI>
+        <Literal xml:lang="en-us">has license</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasLicense</IRI>
+        <Literal xml:lang="pt-br">tem licença</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasPlatform</IRI>
+        <Literal xml:lang="en-us">has platform</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasPlatform</IRI>
+        <Literal xml:lang="pt-br">tem plataforma</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasReference</IRI>
+        <Literal xml:lang="en-us">has reference</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasReference</IRI>
+        <Literal xml:lang="pt-br">tem referência</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasTarget</IRI>
+        <Literal xml:lang="en-us">has target</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hasTarget</IRI>
+        <Literal xml:lang="pt-br">tem alvo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#isAccessibilityOf</IRI>
+        <Literal xml:lang="en-us">is accessibility of</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#isAccessibilityOf</IRI>
+        <Literal xml:lang="pt-br">é acessibilidade de</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#isAreaOf</IRI>
+        <Literal xml:lang="en-us">is area of</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#isAreaOf</IRI>
+        <Literal xml:lang="pt-br">é área de</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#isAuthorOf</IRI>
+        <Literal xml:lang="en-us">is author of</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#isAuthorOf</IRI>
+        <Literal xml:lang="pt-br">é autor de</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#isComposedOf</IRI>
+        <Literal xml:lang="pt-br">is composed of</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#isComposedOf</IRI>
+        <Literal xml:lang="pt-br">é composto de</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#isInteractivityOf</IRI>
+        <Literal xml:lang="en-us">is interactivity of</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#isInteractivityOf</IRI>
+        <Literal xml:lang="pt-br">é interatividade de</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#isLanguageOf</IRI>
+        <Literal xml:lang="en-us">is language of</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#isLanguageOf</IRI>
+        <Literal xml:lang="pt-br">é idioma de</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#isLicenseOf</IRI>
+        <Literal xml:lang="en-us">is license of</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#isLicenseOf</IRI>
+        <Literal xml:lang="pt-br">é licença de</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#isPlatformOf</IRI>
+        <Literal xml:lang="en-us">is platform of</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#isPlatformOf</IRI>
+        <Literal xml:lang="pt-br">é plataforma de</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#isReferenceOf</IRI>
+        <Literal xml:lang="en-us">is reference of</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#isReferenceOf</IRI>
+        <Literal xml:lang="pt-br">é referência de</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#isTargetOf</IRI>
+        <Literal xml:lang="en-us">is target of</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#isTargetOf</IRI>
+        <Literal xml:lang="pt-br">é alvo de</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.unipampa.edu.br/labise/ontolibras#Accessibility</IRI>
+        <Literal xml:lang="en-us">Accessibility</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.unipampa.edu.br/labise/ontolibras#Accessibility</IRI>
+        <Literal xml:lang="pt-br">Acessibilidade</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.unipampa.edu.br/labise/ontolibras#Analyzing</IRI>
+        <Literal xml:lang="en-us">Analyzing</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.unipampa.edu.br/labise/ontolibras#Analyzing</IRI>
+        <Literal xml:lang="pt-br">Análise</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.unipampa.edu.br/labise/ontolibras#Applying</IRI>
+        <Literal xml:lang="pt-br">Aplicação</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.unipampa.edu.br/labise/ontolibras#Applying</IRI>
+        <Literal xml:lang="en-us">Applying</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.unipampa.edu.br/labise/ontolibras#AudiovisualLearningObject</IRI>
+        <Literal xml:lang="en-us">Audiovisual Learning Object</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.unipampa.edu.br/labise/ontolibras#AudiovisualLearningObject</IRI>
+        <Literal xml:lang="pt-br">Objeto de Aprendizagem Audiovisual</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.unipampa.edu.br/labise/ontolibras#Author</IRI>
+        <Literal xml:lang="en-us">Author</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.unipampa.edu.br/labise/ontolibras#Author</IRI>
+        <Literal xml:lang="pt-br">Autor</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.unipampa.edu.br/labise/ontolibras#CompositeLearningObject</IRI>
+        <Literal xml:lang="en-us">Composite Learning Object</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.unipampa.edu.br/labise/ontolibras#CompositeLearningObject</IRI>
+        <Literal xml:lang="pt-br">Objeto de Aprendizagem Composto</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.unipampa.edu.br/labise/ontolibras#Comprehension</IRI>
+        <Literal xml:lang="pt-br">Compreensão</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.unipampa.edu.br/labise/ontolibras#Comprehension</IRI>
+        <Literal xml:lang="en-us">Comprehension</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.unipampa.edu.br/labise/ontolibras#Creating</IRI>
+        <Literal xml:lang="en-us">Ceating</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.unipampa.edu.br/labise/ontolibras#Creating</IRI>
+        <Literal xml:lang="pt-br">Criação</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.unipampa.edu.br/labise/ontolibras#DigitalLearningObject</IRI>
+        <Literal xml:lang="en-us">Digital Learning Object</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.unipampa.edu.br/labise/ontolibras#DigitalLearningObject</IRI>
+        <Literal xml:lang="pt-br">Objetos de Aprendizagem Digitais</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.unipampa.edu.br/labise/ontolibras#Evaluating</IRI>
+        <Literal xml:lang="pt-br">Avaliação</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.unipampa.edu.br/labise/ontolibras#Evaluating</IRI>
+        <Literal xml:lang="en-us">Evaluating</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.unipampa.edu.br/labise/ontolibras#GraphicLearningObject</IRI>
+        <Literal xml:lang="en-us">Graphic Learning Object</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.unipampa.edu.br/labise/ontolibras#GraphicLearningObject</IRI>
+        <Literal xml:lang="pt-br">Objeto de Aprendizagem Gráfico</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.unipampa.edu.br/labise/ontolibras#Interactivity</IRI>
+        <Literal xml:lang="en-us">Interactivity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.unipampa.edu.br/labise/ontolibras#Interactivity</IRI>
+        <Literal xml:lang="pt-br">Interatividade</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.unipampa.edu.br/labise/ontolibras#KnowledgeArea</IRI>
+        <Literal xml:lang="en-us">Knowledge Area</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.unipampa.edu.br/labise/ontolibras#KnowledgeArea</IRI>
+        <Literal xml:lang="pt-br">Área de Conhecimento</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.unipampa.edu.br/labise/ontolibras#Language</IRI>
+        <Literal xml:lang="pt-br">Idioma</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.unipampa.edu.br/labise/ontolibras#Language</IRI>
+        <Literal xml:lang="en-us">Language</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.unipampa.edu.br/labise/ontolibras#LearningPlatform</IRI>
+        <Literal xml:lang="en-us">Learning Platform</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.unipampa.edu.br/labise/ontolibras#LearningPlatform</IRI>
+        <Literal xml:lang="pt-br">Plataforma de Aprendizagem</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.unipampa.edu.br/labise/ontolibras#License</IRI>
+        <Literal xml:lang="en-us">License</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.unipampa.edu.br/labise/ontolibras#License</IRI>
+        <Literal xml:lang="pt-br">Licença</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.unipampa.edu.br/labise/ontolibras#Operation</IRI>
+        <Literal xml:lang="en-us">Operation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.unipampa.edu.br/labise/ontolibras#Operation</IRI>
+        <Literal xml:lang="pt-br">Operação</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.unipampa.edu.br/labise/ontolibras#Perception</IRI>
+        <Literal xml:lang="en-us">Perception</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.unipampa.edu.br/labise/ontolibras#Perception</IRI>
+        <Literal xml:lang="pt-br">Percepção</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.unipampa.edu.br/labise/ontolibras#Remembering</IRI>
+        <Literal xml:lang="pt-br">Memorização</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.unipampa.edu.br/labise/ontolibras#Remembering</IRI>
+        <Literal xml:lang="en-us">Remembering</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.unipampa.edu.br/labise/ontolibras#Robustness</IRI>
+        <Literal xml:lang="pt-br">Robustez</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.unipampa.edu.br/labise/ontolibras#Robustness</IRI>
+        <Literal xml:lang="en-us">Robustness</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.unipampa.edu.br/labise/ontolibras#SimpleLearningObject</IRI>
+        <Literal xml:lang="pt-br">Objeto de Aprendizagem Simples</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.unipampa.edu.br/labise/ontolibras#SimpleLearningObject</IRI>
+        <Literal xml:lang="en-us">Simple Learning Object</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.unipampa.edu.br/labise/ontolibras#SoftwareLearningObject</IRI>
+        <Literal xml:lang="pt-br">Objeto de Aprendizagem Software</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.unipampa.edu.br/labise/ontolibras#SoftwareLearningObject</IRI>
+        <Literal xml:lang="en-us">Software Learning Object</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.unipampa.edu.br/labise/ontolibras#TextualLearningObject</IRI>
+        <Literal xml:lang="pt-br">Objeto de Aprendizagem Textual</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.unipampa.edu.br/labise/ontolibras#TextualLearningObject</IRI>
+        <Literal xml:lang="en-us">Textual Learning Object</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.unipampa.edu.br/labise/ontolibras#Understanding</IRI>
+        <Literal xml:lang="pt-br">Entendimento</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.unipampa.edu.br/labise/ontolibras#Understanding</IRI>
+        <Literal xml:lang="en-us">Understanding</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.unipampa.edu.br/labise/ontolibras#hasAuthor</IRI>
+        <Literal xml:lang="en-us">has author</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.unipampa.edu.br/labise/ontolibras#hasAuthor</IRI>
+        <Literal xml:lang="pt-br">tem autor</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.unipampa.edu.br/labise/ontolibras#hasCity</IRI>
+        <Literal xml:lang="en-us">has city</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.unipampa.edu.br/labise/ontolibras#hasCity</IRI>
+        <Literal xml:lang="pt-br">tem cidade</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.unipampa.edu.br/labise/ontolibras#hasDate</IRI>
+        <Literal xml:lang="en-us">has date</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.unipampa.edu.br/labise/ontolibras#hasDate</IRI>
+        <Literal xml:lang="pt-br">tem data</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.unipampa.edu.br/labise/ontolibras#hasDescription</IRI>
+        <Literal xml:lang="en-us">has description</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.unipampa.edu.br/labise/ontolibras#hasDescription</IRI>
+        <Literal xml:lang="pt-br">tem descrição</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.unipampa.edu.br/labise/ontolibras#hasEvaluation</IRI>
+        <Literal xml:lang="en-us">has evaluation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.unipampa.edu.br/labise/ontolibras#hasEvaluation</IRI>
+        <Literal xml:lang="pt-br">tem avaliação</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.unipampa.edu.br/labise/ontolibras#hasKeyword</IRI>
+        <Literal xml:lang="en-us">has keyword</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.unipampa.edu.br/labise/ontolibras#hasKeyword</IRI>
+        <Literal xml:lang="pt-br">tem palavra-chave</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.unipampa.edu.br/labise/ontolibras#hasLink</IRI>
+        <Literal xml:lang="en-us">has link</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.unipampa.edu.br/labise/ontolibras#hasLink</IRI>
+        <Literal xml:lang="pt-br">tem link</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.unipampa.edu.br/labise/ontolibras#hasName</IRI>
+        <Literal xml:lang="en-us">has name</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.unipampa.edu.br/labise/ontolibras#hasName</IRI>
+        <Literal xml:lang="pt-br">tem nome</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.unipampa.edu.br/labise/ontolibras#hasObjective</IRI>
+        <Literal xml:lang="en-us">has objective</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.unipampa.edu.br/labise/ontolibras#hasObjective</IRI>
+        <Literal xml:lang="pt-br">tem objetivo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.unipampa.edu.br/labise/ontolibras#hasPublisher</IRI>
+        <Literal xml:lang="en-us">has publisher</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.unipampa.edu.br/labise/ontolibras#hasPublisher</IRI>
+        <Literal xml:lang="pt-br">tem editora</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.unipampa.edu.br/labise/ontolibras#hasResumeLink</IRI>
+        <Literal xml:lang="en-us">has resume link</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.unipampa.edu.br/labise/ontolibras#hasResumeLink</IRI>
+        <Literal xml:lang="pt-br">tem link para currículo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.unipampa.edu.br/labise/ontolibras#hasVehicle</IRI>
+        <Literal xml:lang="en-us">has journal name</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.unipampa.edu.br/labise/ontolibras#hasVehicle</IRI>
+        <Literal xml:lang="pt-br">tem nome de periódico</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.unipampa.edu.br/labise/ontolibras#hasYear</IRI>
+        <Literal xml:lang="en-us">has year</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.unipampa.edu.br/labise/ontolibras#hasYear</IRI>
+        <Literal xml:lang="pt-br">tem ano</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>owl:Thing</AbbreviatedIRI>
+        <Literal xml:lang="pt-br">Coisa</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>owl:Thing</AbbreviatedIRI>
+        <Literal xml:lang="en-us">Thing</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+
